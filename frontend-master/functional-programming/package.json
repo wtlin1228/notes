@@ -1,0 +1,23 @@
+{
+  "name": "functional-programming",
+  "version": "1.0.0",
+  "description": "GitHub repo: https://github.com/wtlin1228/hardcore-functional-js-v2",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "accounting": "0.4.1",
+    "immutable-ext": "1.1.5",
+    "ramda": "0.27.1"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
