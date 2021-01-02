@@ -1,0 +1,25 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "Course Repo: https://github.com/wtlin1228/complete-intro-to-databases",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "mongo": "node examples/node_with-mongo/server.js",
+    "neo4j": "node examples/node_with-neo4j/server.js",
+    "postgresql": "node examples/node_with-postgresql/server.js",
+    "redis": "node examples/node_with-redis/server.js"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongodb": "3.6.2",
+    "neo4j-driver": "4.1.2",
+    "pg": "8.4.1",
+    "redis": "3.0.2"
+  }
+}
