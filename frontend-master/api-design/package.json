@@ -1,0 +1,47 @@
+{
+  "name": "api-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "cross-env NODE_ENV=testing jest --forceExit --detectOpenHandles  --silent",
+    "test-routes": "npm run test -t router",
+    "test-models": "npm run test -t model",
+    "test-controllers": "npm run test -t controllers",
+    "test-auth": "npm run test -t auth",
+    "dev": "nodemon --exec npm run restart",
+    "restart": "rimraf dist && npm run build && npm run start",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.12.1",
+    "@babel/preset-env": "7.12.11",
+    "babel-jest": "26.6.3",
+    "cross-env": "7.0.3",
+    "eslint": "7.17.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "7.1.0",
+    "jest": "26.6.3",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1",
+    "rimraf": "3.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "cuid": "2.1.8",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.20",
+    "mongoose": "5.11.11",
+    "morgan": "1.10.0"
+  }
+}
