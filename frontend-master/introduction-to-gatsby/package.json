@@ -1,0 +1,30 @@
+{
+  "name": "introduction-to-gatsby",
+  "version": "1.0.0",
+  "description": "Course Repo: https://github.com/wtlin1228/gatsby-intro",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "2.31.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtlin1228/introduction-to-gatsby"
+  }
+}
