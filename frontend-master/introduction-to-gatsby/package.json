@@ -15,7 +15,10 @@
   "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "11.1.4",
+    "@emotion/styled": "11.0.0",
     "gatsby": "2.31.0",
+    "gatsby-plugin-emotion": "5.3.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
