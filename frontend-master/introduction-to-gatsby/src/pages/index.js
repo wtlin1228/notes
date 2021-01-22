@@ -5,7 +5,7 @@ import Insta from '../components/insta'
 import PostPreview from '../components/PostPreview'
 import usePosts from '../hooks/usePosts'
 
-export default () => {
+const Index = () => {
   const posts = usePosts()
 
   return (
@@ -21,3 +21,5 @@ export default () => {
     </>
   )
 }
+
+export default Index
