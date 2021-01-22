@@ -9,7 +9,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run dev",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "analyze": "cross-env ANALYZE_BUNDLE_SIZE=true gatsby build"
   },
   "keywords": [],
   "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
@@ -26,6 +27,7 @@
     "gatsby-plugin-mdx": "1.9.0",
     "gatsby-plugin-react-helmet": "3.9.0",
     "gatsby-plugin-sharp": "2.13.1",
+    "gatsby-plugin-webpack-bundle-analyzer": "1.0.5",
     "gatsby-remark-images": "3.10.0",
     "gatsby-source-filesystem": "2.10.0",
     "gatsby-source-instagram": "0.9.0",
