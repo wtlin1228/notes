@@ -1,13 +1,15 @@
 import React from 'react'
 import { css } from '@emotion/react'
 import { Link } from 'gatsby'
+import Image from 'gatsby-image'
 import ReadLink from './ReadLink'
 
 const PostPreview = ({ post }) => (
   <article
     css={css`
       border-bottom: 1px solid #ddd;
-      margin-top: 0.75rem;
+      display: flex;
+      margin-top: 0;
       padding-bottom: 1rem;
 
       :first-of-type {
@@ -15,11 +17,30 @@ const PostPreview = ({ post }) => (
       }
     `}
   >
-    <h3>
-      <Link to={post.slug}>{post.title}</Link>
-    </h3>
-    <p>{post.excerpt}</p>
-    <ReadLink to={post.slug}>read this post &rarr;</ReadLink>
+    <Link
+      to={post.slug}
+      css={css`
+        margin: 1rem 1rem 0 0;
+        width: 100px;
+      `}
+    >
+      <Image
+        fluid={post.image.childImageSharp.fluid}
+        css={css`
+          * {
+            margin-top: 0;
+          }
+        `}
+        alt={post.title}
+      />
+    </Link>
+    <div>
+      <h3>
+        <Link to={post.slug}>{post.title}</Link>
+      </h3>
+      <p>{post.excerpt}</p>
+      <ReadLink to={post.slug}>read this post &rarr;</ReadLink>
+    </div>
   </article>
 )
 
