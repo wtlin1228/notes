@@ -1,0 +1,17 @@
+{
+  "name": "theme-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "2.31.1",
+    "gatsby-theme-docs": "*",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
