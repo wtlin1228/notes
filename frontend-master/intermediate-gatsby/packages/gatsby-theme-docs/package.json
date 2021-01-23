@@ -5,6 +5,10 @@
   "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@mdx-js/mdx": "1.6.22",
+    "@mdx-js/react": "1.6.22",
+    "gatsby-plugin-mdx": "1.9.0",
+    "gatsby-source-filesystem": "2.10.0",
     "mkdirp": "1.0.4"
   }
 }
