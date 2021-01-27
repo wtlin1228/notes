@@ -1,7 +1,7 @@
 const withDefaults = require('./utils/default-options');
 
 module.exports = (options) => {
-  const { contentPath, useExternalMSX } = withDefaults(options);
+  const { contentPath, useExternalMDX } = withDefaults(options);
 
   return {
     plugins: [
@@ -12,7 +12,7 @@ module.exports = (options) => {
           path: contentPath,
         },
       },
-      !useExternalMSX && {
+      !useExternalMDX && {
         resolve: 'gatsby-plugin-mdx',
         options: {
           defaultLayouts: {

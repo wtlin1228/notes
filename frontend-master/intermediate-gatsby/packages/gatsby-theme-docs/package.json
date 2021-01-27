@@ -5,7 +5,7 @@
   "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "11.0.0",
+    "@emotion/react": "11.1.4",
     "@mdx-js/mdx": "1.6.22",
     "@mdx-js/react": "1.6.22",
     "gatsby-plugin-mdx": "1.9.0",
