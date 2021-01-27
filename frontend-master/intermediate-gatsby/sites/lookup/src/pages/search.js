@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from '../components/form';
-// import Results from '../components/results';
+import Results from '../components/results';
 
 const Search = ({ location }) => {
   const query =
@@ -21,7 +21,7 @@ const Search = ({ location }) => {
         search interface!
       </p>
       <Form />
-      {/* {name && <Results name={name} />} */}
+      {name && <Results name={name} />}
     </>
   );
 };
