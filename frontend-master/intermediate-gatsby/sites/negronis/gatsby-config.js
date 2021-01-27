@@ -21,13 +21,13 @@ module.exports = {
         uploadFolder: 'fem-workshop',
       },
     },
-    // {
-    //   resolve: 'gatsby-theme-docs',
-    //   options: {
-    //     basePath: '/recipes',
-    //     contentPath: 'content/recipes',
-    //   },
-    // },
+    {
+      resolve: 'gatsby-theme-docs',
+      options: {
+        basePath: '/recipes',
+        contentPath: 'content/recipes',
+      },
+    },
     // {
     //   resolve: '@jlengstorf/gatsby-theme-events',
     //   options: {
