@@ -2,7 +2,7 @@
 import { Fragment } from 'react';
 import { jsx } from 'theme-ui';
 import { Link } from 'gatsby';
-import { Global } from '@emotion/core';
+import { Global } from '@emotion/react';
 import Helmet from 'react-helmet';
 import Honk from '../images/honk.svg';
 import Honker from './honker';
