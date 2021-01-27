@@ -1,5 +1,5 @@
 import React from 'react';
-// import Form from '../components/form';
+import Form from '../components/form';
 // import Results from '../components/results';
 
 const Search = ({ location }) => {
@@ -20,7 +20,7 @@ const Search = ({ location }) => {
         Trying to remember which Rick you’re talking about? Try out this handy
         search interface!
       </p>
-      {/* <Form /> */}
+      <Form />
       {/* {name && <Results name={name} />} */}
     </>
   );
