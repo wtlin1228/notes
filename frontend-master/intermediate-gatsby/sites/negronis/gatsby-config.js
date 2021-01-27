@@ -28,12 +28,12 @@ module.exports = {
         contentPath: 'content/recipes',
       },
     },
-    // {
-    //   resolve: '@jlengstorf/gatsby-theme-events',
-    //   options: {
-    //     basePath: '/events',
-    //     contentPath: 'content/events',
-    //   },
-    // },
+    {
+      resolve: '@jlengstorf/gatsby-theme-events',
+      options: {
+        basePath: '/events',
+        contentPath: 'content/events',
+      },
+    },
   ],
 };
