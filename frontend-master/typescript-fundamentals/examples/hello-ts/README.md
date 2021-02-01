@@ -13,6 +13,8 @@
 
 ## Notes
 
+### Play with `tsc`
+
 1. `$ node_modules/.bin/tsc examples/hello-ts/src/index.ts`
    This version is compatible with IE6.
 
@@ -27,3 +29,6 @@
 
 5. `node_modules/.bin/tsc examples/hello-ts/src/index.ts --target ES2017 --module commonjs --watch`
    Run it in watch mode.
+
+> Compile your TypeScript code into most modern JavaScript (ESNext).
+> Leave the browser supporting thing to Babel.
