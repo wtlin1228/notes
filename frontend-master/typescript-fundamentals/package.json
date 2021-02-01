@@ -1,0 +1,26 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "description": "Course Repo: https://github.com/wtlin1228/typescript-fundamentals Course Slide: `./slides`",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "14.14.22",
+    "@typescript-eslint/eslint-plugin": "4.14.1",
+    "@typescript-eslint/parser": "4.14.1",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1",
+    "typescript": "4.1.3"
+  }
+}

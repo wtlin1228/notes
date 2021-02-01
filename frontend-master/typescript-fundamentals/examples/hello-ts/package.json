@@ -1,0 +1,14 @@
+{
+  "name": "hello-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc src/index.ts --outDir lib --types node --module commonjs --target ES2017",
+    "test": "echo 'No tests'"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT"
+}
