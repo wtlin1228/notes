@@ -4,10 +4,10 @@ interface Person {
   lastName?: string;
   salutation?: string;
   email?: string;
-  phones?: {
+  phones: {
     [k: string]: string;
   };
-  addresses?: {
+  addresses: {
     [k: string]: {
       houseNumber: number;
       street: string;
